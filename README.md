@@ -17,3 +17,10 @@ Once the cluster is up, the user can save the k3s clusters KUBECONFIG file local
 Please ensure that the server address in the KUBECONFIG points to the predefined VIP.
 
 This should allow cluster to be accessible even if the primary node fails
+
+## Ref Design
+![](./design.png)
+
+* Red Flow: Api traffic
+
+* Blue Flow: DB traffic
